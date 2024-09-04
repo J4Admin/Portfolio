@@ -1,0 +1,22 @@
+#pdfviewer {
+  min-width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  font-size: 2em;
+}
+
+#pdfviewer-title {
+  font-size: 2em;
+}
+
+.react-pdf__TextLayer {
+  pointer-events: none;
+  user-select: none;
+}
+
+.react-pdf__AnnotationLayer {
+  pointer-events: none;
+}

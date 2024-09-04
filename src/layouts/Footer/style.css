@@ -1,0 +1,14 @@
+.footer {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-block-start: 4em;
+}
+#footer-quote{
+  display: flex;
+  justify-content: center;
+  padding-block: 3em;
+  color: white;
+  min-width: 100%;
+  min-height: 100%;
+}

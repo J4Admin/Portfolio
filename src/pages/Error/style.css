@@ -1,0 +1,8 @@
+#error {
+  max-width: 1240px;
+}
+#error-image {
+  background-color: #360e67;
+  border-radius: 0.5em;
+  width: 100%;
+}

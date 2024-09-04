@@ -1,0 +1,1 @@
+import React from "react"; import "./style.css"; export default function Footer() { return ( <footer className="footer"> <p id="footer-quote">Designed by J4Admin</p> </footer> ); } 

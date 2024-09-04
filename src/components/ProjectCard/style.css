@@ -1,0 +1,48 @@
+#projects-contener {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  flex-flow: column wrap;
+  max-width: 1240px;
+}
+#projects-contener h2 {
+  margin-block: 2em;
+  font-size: 3em;
+}
+.project-card {
+  min-width: 25%;
+  box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
+  background-color: #282139;
+  border-radius: 0.8em;
+  border-top: 2px solid red;
+  display: flex;
+  min-height: 25rem;
+  max-width: 20%;
+  align-items: center;
+  flex-flow: column wrap;
+  gap: 2em;
+  padding: 2em;
+}
+.project-card:hover {
+  border-top: 2px solid white;
+  transform: translateY(-1%);
+}
+.project-card h3 {
+  min-width: 100%;
+  font-size: 1.5em;
+  display: flex;
+  max-width: 20%;
+  align-items: center;
+  flex-flow: column wrap;
+}
+#projet-description {
+}
+
+#row {
+  flex-flow: row wrap;
+  gap: 3em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}

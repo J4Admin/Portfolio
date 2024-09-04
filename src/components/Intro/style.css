@@ -1,0 +1,90 @@
+#intro,
+#intro-description,
+#intro-name,
+#intro-title,
+#resume {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight: 800;
+}
+#intro-name,
+#intro-title {
+  font-size: 2em;
+}
+#intro-title,
+#intro-list {
+  color: white;
+}
+#intro,
+#resume,
+#github,
+#linkedin {
+  border-top: 2px solid #fefefe;
+  border-radius: 0.5em;
+  box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
+}
+#github:hover,
+#linkedin:hover,
+#resume:hover {
+  transform: translateY(-5%);
+}
+#github,
+#linkedin {
+  padding: 0.5em;
+  top: 0;
+  left: 0;
+  position: absolute;
+  max-width: 36px;
+  min-height: 36px;
+}
+#intro {
+  flex-direction: column;
+  padding-block: 2em;
+  background-color: #282139;
+  width: 100%;
+  max-width: 1240px;
+  max-height: 340px;
+}
+#intro-title {
+  padding: 1em 0 0 1em;
+}
+#intro-name {
+  color: #b0d182;
+  margin-inline: 0.2em;
+  margin-block-start: -0.3em;
+}
+#intro-description {
+  margin-block-start: 2em;
+  width: 45%;
+  margin-inline-start: 1em;
+}
+#intro-list {
+  display: flex;
+  gap: 2em;
+  margin-block-start: 2em;
+  text-decoration: none;
+}
+.intro-link {
+  position: relative;
+  min-width: 2em;
+  max-height: 36px;
+  padding: 0.6em;
+}
+#resume {
+  font-size: 1.2em;
+  font-weight: 800;
+  background-color: #b0d182;
+  color: black;
+  text-decoration: none;
+  padding: 0.8em;
+  max-width: 100%;
+  min-height: 100%;
+}
+#github {
+  background-color: #f91b37;
+}
+#linkedin {
+  background-color: #56bff8;
+}
