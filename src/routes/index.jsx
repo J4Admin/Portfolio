@@ -10,12 +10,12 @@ import Curriculum from "../pages/Curriculum";
 export default createBrowserRouter([
   {
     element: <MainLayout />,
-    children: [
-      { path: "*", element: <Error /> },
-      { path: "/", element: <Home /> },
-      { path: "projets", element: <Projets /> },
-      { path: "contact", element: <Contact /> },
-      { path: "curriculum", element: <Curriculum /> },
+    children: [     
+        { path: "/", element: <Home /> },
+        { path: "projets", element: <Projets /> },
+        { path: "contact", element: <Contact /> },
+        { path: "curriculum", element: <Curriculum /> },
+        { path: "*", element: <Error /> },
     ],
   },
 ]);
