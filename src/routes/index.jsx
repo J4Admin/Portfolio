@@ -12,10 +12,10 @@ export default createBrowserRouter([
     element: <MainLayout />,
     children: [
       { path: "*", element: <Error /> },
-      { path: "Portfolio/", element: <Home /> },
-      { path: "Portfolio/Projets", element: <Projets /> },
-      { path: "Portfolio/Contact", element: <Contact /> },
-      { path: "Portfolio/Curriculum", element: <Curriculum /> },
+      { path: "/", element: <Home /> },
+      { path: "projets", element: <Projets /> },
+      { path: "contact", element: <Contact /> },
+      { path: "curriculum", element: <Curriculum /> },
     ],
   },
 ]);
