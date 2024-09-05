@@ -7,16 +7,19 @@ import Error from "../pages/Error";
 import Contact from "../pages/Contact";
 import Curriculum from "../pages/Curriculum";
 
-export default createBrowserRouter([
-  {
-    element: <MainLayout />,
-    path: "/",
-    children: [     
+export default createBrowserRouter(
+  [
+    {
+      element: <MainLayout />,
+      path: "/",
+      children: [
         { path: "/", element: <Home /> },
         { path: "projets", element: <Projets /> },
         { path: "contact", element: <Contact /> },
         { path: "curriculum", element: <Curriculum /> },
         { path: "*", element: <Error /> },
-    ],
-  },
-]);
+      ],
+    },
+  ],
+  { basename: "/Portfolio" }
+);
