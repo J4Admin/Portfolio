@@ -21,5 +21,5 @@ export default createBrowserRouter(
       ],
     },
   ],
-  { basename: "/Portfolio" }
+  { basename: "/" }
 );

@@ -8,7 +8,7 @@ export default function CurriculumPdf() {
         <PdfViewer />
         <div className="download-link-container">
           <a
-            href="/Portfolio/assets/Leo_Haddou.pdf"
+            href="/assets/Leo_Haddou.pdf"
             download="Leo_Haddou.pdf"
             className="download-button"
           >
