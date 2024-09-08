@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Booki",
+    "link": {
+      "demo": "https://j4admin.github.io/HtmlCssProject/",
+      "code": "https://github.com/J4Admin/HtmlCssProject"
+    },
+    "content": {
+      "Objectif": "Ce projet était principalement un outil pratique permettant d'appréhender la sémantique et les bonnes pratiques, visant à un code respectant les normes définies par le W3C.",
+      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
+      "skill": [
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "Implémenter une interface responsive avec HTML et CSS"
+      ]
+    }
+  },
+  {
+    "title": "Kasa",
+    "link": {
+      "demo": "https://j4admin.github.io/ReactProject/",
+      "code": "https://github.com/J4Admin/ReactProject"
+    },
+    "content": {
+      "Objectif": "Créer une appli web avec Vite, configurer la navigation avec React Router, développer des composants React, ajouter des animations CSS et utiliser Sass pour correspondre à la maquette figma. ",
+      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
+      "skill": [
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "Implémenter une interface responsive avec HTML et CSS"
+      ]
+    }
+  },
+  {
+    "title": "Nina-Carducci",
+    "link": {
+      "demo": "https://j4admin.github.io/SEOProject/",
+      "code": "https://github.com/J4Admin/SEOProject"
+    },
+    "content": {
+      "Objectif": "Optimiser un site de photographe en analysant les problèmes de navigation et de SEO, en utilisant Schema.org, Lighthouse et WAVE pour améliorer SEO, accessibilité, et performances.",
+      "Challenge": "Identifier et rédiger les axes d'amélioration pour améliorer le site.",
+      "skill": [
+        "Optimiser les performances d’un site web",
+        "Débugger un site web grâce aux Chrome DevTools, lighthouse"
+      ]
+    }
+  },
+  {
+    "title": "Booki",
+    "link": {
+      "demo": "https://j4admin.github.io/HtmlCssProject/",
+      "code": "https://github.com/J4Admin/HtmlCssProject"
+    },
+    "content": {
+      "Objectif": "Ce projet était principalement un outil pratique permettant d'appréhender la sémantique et les bonnes pratiques, visant à un code respectant les normes définies par le W3C.",
+      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
+      "skill": [
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "Implémenter une interface responsive avec HTML et CSS"
+      ]
+    }
+  },
+  {
+    "title": "Booki",
+    "link": {
+      "demo": "https://j4admin.github.io/HtmlCssProject/",
+      "code": "https://github.com/J4Admin/HtmlCssProject"
+    },
+    "content": {
+      "Objectif": "Ce projet était principalement un outil pratique permettant d'appréhender la sémantique et les bonnes pratiques, visant à un code respectant les normes définies par le W3C.",
+      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
+      "skill": [
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "Implémenter une interface responsive avec HTML et CSS"
+      ]
+    }
+  },
+  {
+    "title": "Booki",
+    "link": {
+      "demo": "https://j4admin.github.io/HtmlCssProject/",
+      "code": "https://github.com/J4Admin/HtmlCssProject"
+    },
+    "content": {
+      "Objectif": "Ce projet était principalement un outil pratique permettant d'appréhender la sémantique et les bonnes pratiques, visant à un code respectant les normes définies par le W3C.",
+      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
+      "skill": [
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "Implémenter une interface responsive avec HTML et CSS"
+      ]
+    }
+  }
+]
