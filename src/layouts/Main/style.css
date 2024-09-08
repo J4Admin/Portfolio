@@ -1,9 +1,10 @@
 .main {
+  max-width: 1240px;
   flex-flow: column wrap;
   min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 80%;
-  color:white;
+  color: white;
 }
