@@ -35,8 +35,8 @@ export default function ProjectCard() {
                 {project.content.Challenge}
               </p>
               <div className="project-style">
+                <h4 className="card-subtitle">Compétences :</h4>
                 <ul className="project-list">
-                  <h4 className="card-subtitle">Compétences :</h4>
                   {project.content.skill.map((skill, i) => (
                     <li key={i} className="project-skill">
                       {skill}
