@@ -1,8 +1,16 @@
+@import url("../../styles/_GlobalVariables.css");
+
 .typeAnim-style {
   max-width: 100%;
   font-size: 3em;
-  color: #56bff8;
+  color: var(--third-bg-color);
   display: flex;
   justify-content: center;
   font-weight: 800;
+}
+
+@media (max-width: 1250px){
+  .typeAnim-style{
+  min-height: 160px;
+  }
 }

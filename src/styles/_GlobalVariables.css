@@ -1,0 +1,14 @@
+:root {
+  /* Color */
+  --main-color: #fefefe;
+  --secondary-color: black;
+  --third-color: #b0d182;
+  --body-bg-color: #1e1925;
+  --main-bg-color: #282139;
+  --secondary-bg-color: #f91b37;
+  --third-bg-color: #56bff8;
+  /* Breakpoints */
+  --breakpoint-desktop: 1250px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-phone: 450px;
+}

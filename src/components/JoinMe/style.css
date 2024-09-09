@@ -1,14 +1,14 @@
+@import url("../../styles/_GlobalVariables.css");
+
 .join-me-title {
-  color: white;
+
+  color: var(--main-color);
   font-weight: 800;
-  font-size: 2em;
+  font-size: 3em;
 }
 .join-me-style {
   max-width: 1240px;
-  min-height: 20vh;
   min-width: 98%;
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
-  gap: 2em;
 }

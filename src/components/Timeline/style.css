@@ -1,3 +1,5 @@
+@import url("../../styles/_GlobalVariables.css");
+
 #vertical-timeline {
   width: 100%;
 }
@@ -11,20 +13,18 @@
   max-height: 4px;
 }
 .vertical-timeline-element-icon {
-  background-color: #b0d182;
+  background-color: var(--third-color);
 }
 .bg-green {
-  background-color: #b0d182;
+  background-color: var(--third-color);
   color: black;
- 
 }
 .bg-blue {
-  background-color: #56bff8;
-  color: black;
- 
+  background-color: var(--third-bg-color);
+  color: var(--secondary-color);
 }
 .anim:hover {
-  border-top: 2px solid black;
+  border-top: 2px solid var(--secondary-color);
   transform: translateY(2%);
 }
 .vertical-timeline-element-icon .bounce-in {
@@ -55,8 +55,14 @@
 }
 
 .vertical-timeline-element-content {
-  border-top: 1px solid #f91b37;
+  border-top: 1px solid var(--secondary-bg-color);
   border-radius: 0.5em;
   box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
-  background-color: #282139;
+  background-color: var(--main-bg-color);
+}
+@media (max-width: 1250px) {
+  .vertical-timeline-element-icon svg {
+    left:21%;
+  }
+
 }

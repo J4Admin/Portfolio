@@ -1,16 +1,18 @@
+@import url("../../styles/_GlobalVariables.css");
+
 .download-button {
   color: black;
   font-weight: 700;
   border-radius: 0.5em;
-  background-color: #b0d182;
+  background-color: var(--third-color);
   padding: 1em;
   text-decoration: none;
   display: flex;
   justify-content: center;
   width: 20%;
   margin-block-start: 2em;
-  box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
-  border-top: 1px solid white;
+  box-shadow: var(--secondary-color) 0px 2px 8px 0px;
+  border-top: 1px solid var(--main-color);
 }
 .download-button:hover {
   transform: translateY(-2%);
@@ -19,4 +21,10 @@
   gap: 2em;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 1250px) {
+  .download-button {
+    min-width: 85%;
+    font-size: 1.4em;
+  }
 }

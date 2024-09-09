@@ -1,3 +1,5 @@
+@import url("../../styles/_GlobalVariables.css");
+
 #projects-container {
   display: flex;
   max-width: 100%;
@@ -13,10 +15,10 @@
   position: relative;
   min-width: 25%;
   min-height: 540px;
-  box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
-  background-color: #282139;
+  box-shadow: var(--secondary-color) 0px 2px 8px 0px;
+  background-color: var(--main-bg-color);
   border-radius: 0.8em;
-  border-top: 2px solid red;
+  border-top: 2px solid var(--secondary-bg-color);
   display: flex;
   max-width: 20%;
   align-items: center;
@@ -27,7 +29,7 @@
   transform: translateY(0%);
 }
 .project-card:hover {
-  border-top: 2px solid white;
+  border-top: 2px solid var(--main-color);
   transform: translateY(-2%);
 }
 .project-card h3 {
@@ -57,10 +59,10 @@
   display: flex;
   font-size: 1.2em;
   font-weight: 800;
-  background-color: #b0d182;
-  color: black;
+  background-color: var(--third-color);
+  color: var(--secondary-color);
   text-decoration: none;
-  border-top: 2px white solid;
+  border-top: 2px var(--main-color) solid;
   border-radius: 0.5em;
   padding-inline: 1em;
 }
@@ -110,4 +112,15 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1250px) {
+  .project-card {
+    padding: 4em 3em;
+    max-width: 82%;
+    min-height: 400px;
+  }
+  .project-card h3 {
+    font-size: 2em;
+  }
 }

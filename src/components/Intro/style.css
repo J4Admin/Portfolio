@@ -1,3 +1,5 @@
+@import url("../../styles/_GlobalVariables.css");
+
 #intro,
 #intro-description,
 #intro-name,
@@ -15,15 +17,15 @@
 }
 #intro-title,
 #intro-list {
-  color: white;
+  color: var(--main-color);
 }
 #intro,
 #resume,
 #github,
 #linkedin {
-  border-top: 2px solid #fefefe;
+  border-top: 2px solid var(--main-color);
   border-radius: 0.5em;
-  box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
+  box-shadow: var(--secondary-color) 0px 2px 8px 0px;
 }
 #github:hover,
 #linkedin:hover,
@@ -37,12 +39,13 @@
   left: 0;
   position: absolute;
   max-width: 36px;
+  max-height: 36px;
   min-height: 36px;
 }
 #intro {
   flex-direction: column;
   padding-block: 2em;
-  background-color: #282139;
+  background-color: var(--main-bg-color);
   width: 100%;
   max-width: 1240px;
   max-height: 340px;
@@ -51,7 +54,7 @@
   padding: 1em 0 0 1em;
 }
 #intro-name {
-  color: #b0d182;
+  color: var(--third-color);
   margin-inline: 0.2em;
   margin-block-start: -0.3em;
 }
@@ -69,22 +72,38 @@
 .intro-link {
   position: relative;
   min-width: 2em;
-  max-height: 36px;
+  height: 36px;
   padding: 0.6em;
 }
 #resume {
   font-size: 1.2em;
   font-weight: 800;
-  background-color: #b0d182;
-  color: black;
+  background-color: var(--third-color);
+  color: var(--secondary-color);
   text-decoration: none;
-  padding: 0.8em;
-  max-width: 100%;
-  min-height: 100%;
+  height: 29px;
 }
 #github {
-  background-color: #f91b37;
+  background-color: var(--secondary-bg-color);
 }
 #linkedin {
-  background-color: #56bff8;
+  background-color: var(--third-bg-color);
+}
+@media (max-width: 1250px) {
+
+  #intro {
+    flex-wrap: wrap;
+    padding: 4em 3em;
+    max-width: 82%;
+    min-height: 800px;
+  }
+  #intro-title {
+    flex-wrap: wrap;
+
+  }
+  #intro-description{
+    width: 90%;
+    font-size: 2em;
+  }
+
 }

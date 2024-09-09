@@ -1,41 +1,58 @@
+@import url("../../styles/_GlobalVariables.css");
+
 #navbar {
-  width: 100%;
+  position: relative;
   max-width: 1240px;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #56bff8;
+  border-bottom: 2px solid var(--third-bg-color);
   min-height: 4em;
   border-radius: 0 0 0.5em 0.5em;
-  box-shadow: rgb(0, 0, 0) 0px -2px 8px 0px;
-  background-color: #282139;
+  box-shadow: var(--secondary-color) 0px -2px 8px 0px;
+  background-color: var(--main-bg-color);
 }
+#navbar,
+#navbar-list,
 .navbar-link,
 .navbar-title,
 .navbar-item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
 }
+.navbar-link,
+.navbar-item {
+  justify-content: center;
+}
 .navbar-title {
   padding-inline-start: 1em;
-  align-items: center;
   font-size: 2em;
-  display: flex;
-
-  color: #b0d182;
+  color: var(--third-color);
 }
 #navbar-list {
   padding-inline-end: 2em;
   width: 50%;
-  display: flex;
-  align-items: center;
 }
 .navbar-item {
-  display: flex;
+  margin-inline-start: 2em;
+  width: 32%;
 }
 .navbar-link {
-  display: flex;
-  justify-content: flex-end;
-  color: white;
+  color: var(--main-color);
   text-decoration: none;
+}
+@media (max-width: 1250px) {
+  #navbar {
+    min-width: 95%;
+    max-width: 95%;
+  }
+  #navbar-list {
+    position: absolute;
+    padding: 0;
+    right: 0;
+  }
+  .navbar-item {
+    margin: 0;
+  }
 }
