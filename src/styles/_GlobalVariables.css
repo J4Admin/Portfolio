@@ -1,4 +1,5 @@
 :root {
+
   /* Color */
   --main-color: #fefefe;
   --secondary-color: black;
@@ -7,8 +8,10 @@
   --main-bg-color: #282139;
   --secondary-bg-color: #f91b37;
   --third-bg-color: #56bff8;
+
   /* Breakpoints */
   --breakpoint-desktop: 1250px;
   --breakpoint-tablet: 768px;
   --breakpoint-phone: 450px;
+  
 }
