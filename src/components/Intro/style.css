@@ -90,7 +90,6 @@
   background-color: var(--third-bg-color);
 }
 @media (max-width: 1250px) {
-
   #intro {
     flex-wrap: wrap;
     padding: 4em 3em;
@@ -99,11 +98,65 @@
   }
   #intro-title {
     flex-wrap: wrap;
-
   }
-  #intro-description{
+  #intro-description {
     width: 90%;
     font-size: 2em;
+  }
+}
+@media (max-width: 768px) {
+  #intro {
+    flex-wrap: wrap;
+    max-width: 82%;
+    min-height: 750px;
+    padding: 0 1em;
+  }
+  #intro-description {
+    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  #intro-name {
+    color: var(--third-color);
+    margin-inline: 0.2em;
+    margin-block-start: -0.3em;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 450px) {
+  #intro {
+    max-width: 90%;
+    min-height: 500px;
+    padding: 0;
+  }
+  #intro-title {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 ;
+    font-size: 1.8em;
+  }
+  #intro-description {
+    width: 90%;
+    font-size: 0.8em;
+    margin: 0;
+  }
+  #resume {
+    height: 21px;
+  }
+  #github,
+  #linkedin {
+    max-width: 28px;
+    max-height: 28px;
+    min-height: 28px;
+  }
+  #intro-name {
+    color: var(--third-color);
+    margin-inline: 0.2em;
+    margin-block-start: -0.3em;
+    font-size: 1.5em;
+  }
+  #intro-list {
+    gap: 1em;
   }
 
 }

@@ -16,7 +16,58 @@
   pointer-events: none;
   user-select: none;
 }
+.react-pdf__Page,
+.react-pdf__Page__canvas {
+  border-radius: 0.2em;
+}
 
 .react-pdf__AnnotationLayer {
   pointer-events: none;
+}
+@media (max-width: 1250px) {
+  .curriculum-page {
+    max-width: 90%;
+  }
+  #pdfviewer {
+    width: 100%;
+  }
+  #pdfviewer-title {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  #pdfviewer,
+  .react-pdf__Page {
+    overflow: hidden;
+    position: relative;
+  }
+
+  #pdfviewer {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .react-pdf__Page {
+    background-color: transparent;
+    max-height: 526px;
+    border-radius: 0.2em;
+    top: 0;
+    position: relative;
+  }
+  .react-pdf__Page__Document {
+    top: 0;
+    position: relative;
+  }
+  .react-pdf__Page__canvas {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto !important;
+  }
+  .react-pdf__Page__textContent {
+    min-width: 100%;
+  }
+  .presentation {
+    box-sizing: border-box;
+    position: absolute;
+  }
 }

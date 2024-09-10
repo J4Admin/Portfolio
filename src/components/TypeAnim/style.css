@@ -9,8 +9,20 @@
   font-weight: 800;
 }
 
-@media (max-width: 1250px){
-  .typeAnim-style{
-  min-height: 160px;
+@media (max-width: 1250px) {
+  .typeAnim-style {
+    min-height: 160px;
+  }
+}
+@media (max-width: 768px) {
+  .typeAnim-style {
+    min-height: 120px;
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 450px) {
+  .typeAnim-style {
+    min-height: 120px;
+    font-size: 2em;
   }
 }
