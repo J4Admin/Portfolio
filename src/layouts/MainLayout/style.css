@@ -11,3 +11,6 @@ body {
   background-position: center;
   background-color: #1E192B;
 }
+.no-scroll {
+  overflow: hidden;
+}
