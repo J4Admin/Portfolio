@@ -25,8 +25,7 @@
       "Challenge": "Comprendre l'utilisation d'une structure Single Page App(SPA) ",
       "skill": [
         "Initialiser une application avec un bundler (Vite)",
-        "Configurer la navigation entre les pages de l'application avec React Router.",
-        "Dévellopper des éléments de l'interface d'un Site Web grâce à des composants React"
+        "Configurer la navigation entre les pages avec React Router."
       ]
     }
   },
