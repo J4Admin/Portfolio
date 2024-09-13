@@ -22,15 +22,16 @@
     },
     "content": {
       "Objectif": "Créer une appli web avec Vite, configurer la navigation avec React Router, développer des composants React, ajouter des animations CSS et utiliser Sass pour correspondre à la maquette figma. ",
-      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
+      "Challenge": "Comprendre l'utilisation d'une structure Single Page App(SPA) ",
       "skill": [
-        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-        "Implémenter une interface responsive avec HTML et CSS"
+        "Initialiser une application avec un bundler (Vite)"
+        "Configurer la navigation entre les pages de l'application avec React Router.",
+        "Dévellopper des éléments de l'interface d'un Site Web grâce à des composants React"
       ]
     }
   },
   {
-    "title": "Nina-Carducci",
+    "title": "Nina",
     "link": {
       "demo": "https://j4admin.github.io/SEOProject/",
       "code": "https://github.com/J4Admin/SEOProject"
@@ -43,50 +44,6 @@
         "Débugger un site web grâce aux Chrome DevTools, lighthouse"
       ]
     }
-  },
-  {
-    "title": "Booki",
-    "link": {
-      "demo": "https://j4admin.github.io/HtmlCssProject/",
-      "code": "https://github.com/J4Admin/HtmlCssProject"
-    },
-    "content": {
-      "Objectif": "Ce projet était principalement un outil pratique permettant d'appréhender la sémantique et les bonnes pratiques, visant à un code respectant les normes définies par le W3C.",
-      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
-      "skill": [
-        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-        "Implémenter une interface responsive avec HTML et CSS"
-      ]
-    }
-  },
-  {
-    "title": "Booki",
-    "link": {
-      "demo": "https://j4admin.github.io/HtmlCssProject/",
-      "code": "https://github.com/J4Admin/HtmlCssProject"
-    },
-    "content": {
-      "Objectif": "Ce projet était principalement un outil pratique permettant d'appréhender la sémantique et les bonnes pratiques, visant à un code respectant les normes définies par le W3C.",
-      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
-      "skill": [
-        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-        "Implémenter une interface responsive avec HTML et CSS"
-      ]
-    }
-  },
-  {
-    "title": "Booki",
-    "link": {
-      "demo": "https://j4admin.github.io/HtmlCssProject/",
-      "code": "https://github.com/J4Admin/HtmlCssProject"
-    },
-    "content": {
-      "Objectif": "Ce projet était principalement un outil pratique permettant d'appréhender la sémantique et les bonnes pratiques, visant à un code respectant les normes définies par le W3C.",
-      "Challenge": "Comprendre la structure d'un site web statique et responsive.",
-      "skill": [
-        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-        "Implémenter une interface responsive avec HTML et CSS"
-      ]
-    }
   }
+  
 ]
