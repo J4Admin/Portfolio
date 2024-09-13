@@ -60,7 +60,6 @@
     min-width: 95%;
     max-width: 95%;
   }
-
 }
 @media (max-width: 450px) {
   #navbar-list {
@@ -83,6 +82,7 @@
   #navbar-list.active {
     top: 0;
     visibility: visible;
+    z-index: 3;
   }
 
   .navbar-item {
@@ -96,7 +96,7 @@
     min-height: 2%;
     height: 100%;
   }
-  .navbar-link{
+  .navbar-link {
     min-width: 60vw;
     max-height: 5vh;
     min-height: auto;
@@ -104,7 +104,6 @@
   .navbar-burger {
     padding-block-end: 0.1em;
     padding-inline-end: 5em;
-
     display: inline-block;
     height: 40px;
     min-height: auto;
@@ -121,7 +120,6 @@
     position: absolute;
     border-radius: 0.5em;
     background: white;
-
     transition: all 0.5s ease-in-out;
   }
 
