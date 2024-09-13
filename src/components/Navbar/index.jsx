@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <>
       <nav id="navbar">
-        <h2 className="navbar-title"> L.H </h2>{" "}
+        <h2 className="navbar-title"> L.H </h2>
         <ul id="navbar-list" className={`${showLinks ? "active" : "hidden"}`}>
           <li className="navbar-item">
             <Link className="navbar-link" to="/" onClick={closeMenu}>
@@ -35,12 +35,14 @@ export default function Navbar() {
           <li className="navbar-item">
             <Link className="navbar-link" to="contact" onClick={closeMenu}>
               Contact
-            </Link>
+            </Link >
           </li>
         </ul>
         <button
+          id="burger-button"
           className={`navbar-burger ${showLinks ? "active" : ""}`}
           onClick={handleShowLinks}
+          aria-label="Ouvre/ferme le menu de liens - nav"
         >
           <span className="burger-bar"></span>
         </button>
