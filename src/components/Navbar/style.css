@@ -60,10 +60,7 @@
     min-width: 95%;
     max-width: 95%;
   }
-  #navbar-list {
-  }
-  .navbar-item {
-  }
+
 }
 @media (max-width: 450px) {
   #navbar-list {
