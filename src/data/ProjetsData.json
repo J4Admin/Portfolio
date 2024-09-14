@@ -17,8 +17,8 @@
   {
     "title": "Kasa",
     "link": {
-      "demo": "https://j4admin.github.io/ReactProject/",
-      "code": "https://github.com/J4Admin/ReactProject"
+      "demo": "https://j4admin.github.io/kasa/",
+      "code": "https://github.com/J4Admin/kasa/"
     },
     "content": {
       "Objectif": "Créer une appli web avec Vite, configurer la navigation avec React Router, développer des composants React, ajouter des animations CSS et utiliser Sass pour correspondre à la maquette figma. ",
