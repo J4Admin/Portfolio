@@ -84,7 +84,6 @@
     visibility: visible;
     z-index: 3;
   }
-
   .navbar-item {
     display: flex;
     align-items: center;
@@ -100,6 +99,9 @@
     min-width: 60vw;
     max-height: 5vh;
     min-height: auto;
+  }
+  .burger-button {
+    z-index: 4;
   }
   .navbar-burger {
     padding-block-end: 0.1em;
