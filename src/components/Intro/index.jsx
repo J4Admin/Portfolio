@@ -22,8 +22,7 @@ export default function Intro() {
       <p id="intro-description">
         {" "}
         Je suis ravi de vous présenter mon parcours, mes objectifs et mes
-        projets à travers ce portfolio. J'espère que vous trouverez cela
-        intéressant.{" "}
+        projets à travers ce portfolio. {" "}
       </p>{" "}
       <div id="intro-list">
         {" "}

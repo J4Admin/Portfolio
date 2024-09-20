@@ -65,4 +65,23 @@
     left: 21%;
   }
 }
-
+@media (max-width: 1250px) {
+  #stack {
+    max-width: 90%;
+  }
+  #stack-list {
+    max-width: 90%;
+    padding-inline: 2em;
+  }
+}
+@media (max-width: 768px) {
+  #vertical-timeline-title {
+    font-size: 2em;
+  }
+}
+@media (max-width: 768px) {
+  #vertical-timeline-title {
+    padding: 1em;
+    text-align: center;
+  }
+}

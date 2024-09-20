@@ -20,7 +20,13 @@ export default function Navbar() {
   return (
     <>
       <nav id="navbar">
-        <h2 className="navbar-title"> L.H </h2>
+        <div className="navbar-title">
+          <img
+            id="navbar-logo"
+            src="/assets/Logo-Portfolio.webp"
+            alt="Logo, Leo Haddou ecrit en vert sous forme d'initial, sur un fond arondi sombre."
+          />
+        </div>
         <ul id="navbar-list" className={`${showLinks ? "active" : "hidden"}`}>
           <li className="navbar-item">
             <Link className="navbar-link" to="/" onClick={closeMenu}>
@@ -35,7 +41,7 @@ export default function Navbar() {
           <li className="navbar-item">
             <Link className="navbar-link" to="contact" onClick={closeMenu}>
               Contact
-            </Link >
+            </Link>
           </li>
         </ul>
         <button

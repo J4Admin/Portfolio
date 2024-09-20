@@ -21,6 +21,10 @@
   width: 100%;
   height: 100%;
 }
+#navbar-logo {
+  width: 48px;
+  height: 48px;
+}
 .navbar-link,
 .navbar-item {
   justify-content: center;
